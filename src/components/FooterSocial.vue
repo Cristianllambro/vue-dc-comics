@@ -45,6 +45,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import url(../assets/style/style.scss);
+
 .container{
     width: 100%;
     background-color: rgb(48, 48, 48);
@@ -65,6 +67,7 @@ export default {
     border: 2px solid rgb(2, 130, 249);
     color: white;
     padding: .6rem 1.4rem;
+    cursor: pointer;
 }
 
 .txt{
@@ -85,6 +88,7 @@ ul{
 li{
     display: inline-block;
     padding: .5rem;
+    cursor: pointer;
 }
 
 </style>

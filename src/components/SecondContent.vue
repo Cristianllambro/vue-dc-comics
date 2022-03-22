@@ -87,10 +87,6 @@ li{
     img{
         height: 60px;
     }
-
-    .mod{
-        width: 80px;
-    }
 }
 
 
