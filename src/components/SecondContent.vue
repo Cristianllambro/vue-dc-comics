@@ -2,7 +2,11 @@
   <div class="container">
       <div class="center">
           <ul>
-              <li><img v-for="(element, index) in arrImgList" :key="index" :src="'../assets/img' + arrImgList[indexImg].img" alt="img"><a href="#"></a></li>
+              <li><img src="../assets/img/buy-comics-digital-comics.png" alt=""><a href="">DIGITAL COMICS</a></li>
+              <li><img src="../assets/img/buy-comics-merchandise.png" alt=""><a href=""></a></li>
+              <li><img src="../assets/img/buy-comics-subscriptions.png" alt=""><a href=""></a></li>
+              <li><img src="../assets/img/buy-comics-shop-locator.png" alt=""><a href=""></a></li>
+              <li><img class="mod" src="../assets/img/buy-dc-power-visa.svg" alt=""><a href=""></a></li>
           </ul>
       </div>
   </div>
@@ -10,17 +14,6 @@
 
 <script>
 export default {
-    data () {
-        return{
-            indexImg: 0,
-            arrImgList: [
-                {
-                    img: 'buy-comics-digital-comics.png',
-                    text: 'DIGITAL COMICS',
-                }
-            ]
-        }
-    }
 
 }
 </script>
@@ -35,4 +28,16 @@ export default {
     width: 1200px;
     margin: 0 auto;
 }
+
+li{
+    display: inline-block;    
+    text-align: center;
+
+
+    img{
+        height: 80px;
+    }
+}
+
+
 </style>
