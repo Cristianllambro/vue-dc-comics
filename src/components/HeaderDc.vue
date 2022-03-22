@@ -18,7 +18,8 @@ export default {
         return{
             listIndex: 1,
 
-            arrList: [
+            arrList: 
+            [
                 {
                     text: 'CHARACTER',
                 },
@@ -64,7 +65,7 @@ export default {
 <style lang="scss" scoped>
 
     .container{
-        width: 100vw;
+        width: 100%;
     }
     .center{
         width: 1200px;

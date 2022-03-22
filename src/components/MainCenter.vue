@@ -15,9 +15,9 @@ export default {
 
 <style lang="scss" scoped>
 .container{
-    background-color: rgb(28, 28, 28);
+    width: 100%;
     height: 150px;
-    width: 100vw;
+    background-color: rgb(28, 28, 28);
 }
 h1{
     color: white;

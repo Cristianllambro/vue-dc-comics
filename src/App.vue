@@ -3,6 +3,9 @@
     <HeaderDc />
     <MainCenter />
     <SecondContent />
+    <FooterMain />
+    <FooterSocial />
+
   </div>
 </template>
 
@@ -10,6 +13,9 @@
 import HeaderDc from './components/HeaderDc.vue';
 import MainCenter from './components/MainCenter.vue';
 import SecondContent from './components/SecondContent.vue';
+import FooterMain from './components/FooterMain.vue';
+import FooterSocial from './components/FooterSocial.vue';
+import './assets/style/style.scss';
 
 export default {
   name: 'App',
@@ -17,10 +23,11 @@ export default {
     HeaderDc,
     MainCenter,
     SecondContent,
+    FooterMain,
+    FooterSocial,
   }
 }
 </script>
 
 <style lang="scss">
-@import './assets/style/style.scss'
 </style>
