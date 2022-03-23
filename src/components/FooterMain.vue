@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="right"><img src="../assets/img/dc-logo-bg.png" alt=""></div>
+            <div class="right"></div>
         </div>
     </div>
 </template>
@@ -140,8 +140,8 @@ export default {
     width: 100%;
     height: 470px;
     background-image: url(../assets/img/footer-bg.jpg);
-    object-fit: cover;
     background-position: center;
+    background-size: cover;
 }
 
 .center{
@@ -160,6 +160,7 @@ export default {
         margin: .7rem 0;
 
         a{
+            font-size: 15px;
             text-decoration: none;
             color: grey;
         }
@@ -173,14 +174,15 @@ export default {
 
 .right{
     width: 50%;
-
-    img{
-        display: inline-block;
-        height: 450px;
-    }
+    height: 470px;
+    background-image: url(../assets/img/dc-logo-bg.png);
+    overflow-y: hidden;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
-
 .title{
+    font-size: 22px;
     color: white;
 }
 </style>

@@ -46,11 +46,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import url(../assets/style/style.scss);
+@import "../assets/style/variable.scss";
 
 .container{
     width: 100%;
-    background-color: rgb(48, 48, 48);
+    background-color: $color_bk_gray;
 }
 
 .center{
@@ -65,14 +65,14 @@ export default {
 .btn-foot{
     font-size: 16px;
     background-color: transparent;
-    border: 2px solid rgb(2, 130, 249);
+    border: 2px solid $color_primary;
     color: white;
     padding: .6rem 1.4rem;
     cursor: pointer;
 }
 
 .txt{
-    color: rgb(2, 130, 249);
+    color: $color_primary;
     font-size: 20px;
     font-weight: bold;
 

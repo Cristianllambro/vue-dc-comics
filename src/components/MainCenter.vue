@@ -13,11 +13,13 @@ export default {
 }
 </script>
 
+
 <style lang="scss" scoped>
+@import "../assets/style/variable.scss";
 .container{
     width: 100%;
     height: 150px;
-    background-color: rgb(28, 28, 28);
+    background-color: $color_bk_dark;
 }
 h1{
     color: white;

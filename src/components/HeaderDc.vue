@@ -64,6 +64,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../assets/style/variable.scss";
 
     .container{
         width: 100%;
@@ -81,15 +82,20 @@ export default {
             text-decoration: none;
             padding: 0 .8rem;
             color: black;
+
+            &:hover{
+                color: $color_primary;
+                border-bottom: 4px solid $color_primary;
+                padding-bottom: 4rem;
+            }
+
         }
 
-        a:hover{
-            color: #255ee9;
-        }
     }
 
     li{
         display: inline-block;
+        
     }
 
 </style>
