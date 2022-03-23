@@ -20,6 +20,7 @@ import item5 from '../assets/img/buy-dc-power-visa.svg'
 
 
 export default {
+    name: 'SecondContent',
     data () {
         return{
             itemsList: 

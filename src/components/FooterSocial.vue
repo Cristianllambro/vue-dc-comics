@@ -22,6 +22,7 @@ import item4 from '../assets/img/footer-pinterest.png'
 import item5 from '../assets/img/footer-periscope.png'
 
 export default {
+    name: 'FooterSocial',
     data () {
         return {
             arrImageSocial: 

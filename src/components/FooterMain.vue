@@ -36,6 +36,7 @@
 
 <script>
 export default {
+    name: 'FooterMain',
     data () {
         return {
             arrListFooter1: 

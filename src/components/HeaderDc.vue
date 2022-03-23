@@ -14,6 +14,7 @@
 
 <script>
 export default {
+    name: 'HeaderDC',
     data () {
         return{
             listIndex: 1,
