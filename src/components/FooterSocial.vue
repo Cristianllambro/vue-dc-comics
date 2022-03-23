@@ -74,7 +74,7 @@ export default {
 .txt{
     color: $color_primary;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
 
     padding-right: 1.3rem;
 

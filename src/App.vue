@@ -15,7 +15,6 @@ import MainCenter from './components/MainCenter.vue';
 import SecondContent from './components/SecondContent.vue';
 import FooterMain from './components/FooterMain.vue';
 import FooterSocial from './components/FooterSocial.vue';
-import './assets/style/style.scss';
 
 export default {
   name: 'App',
@@ -30,5 +29,8 @@ export default {
 </script>
 
 <style lang="scss">
-
+@import './assets/style/style.scss';
+#app{
+  font-family: 'Raleway', sans-serif;
+}
 </style>
