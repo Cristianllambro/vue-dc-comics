@@ -115,7 +115,7 @@ export default {
 
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     flex-basis: calc(100% / 6 - .3rem);
 }

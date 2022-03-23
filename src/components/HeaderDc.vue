@@ -71,14 +71,19 @@ export default {
     }
     .center{
         width: 1200px;
-        height: 150px;
+        height: 120px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
 
+        img{
+            width: 80px;
+        }
+
         a{
             font-size: 14px;
+            font-weight: 700;
             text-decoration: none;
             padding: 0 .8rem;
             color: black;

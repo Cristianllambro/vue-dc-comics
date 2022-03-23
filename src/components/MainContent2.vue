@@ -23,14 +23,14 @@ export default {
 <style lang="scss">
 .item{
     width: 170px;
-    margin: .3rem;    
+    margin: .3rem;
 }
 
 .card-img{
 
     img{
         width: 150px;
-        height: 150px;
+        height: 200px;
         object-fit: cover;
         padding-bottom: .5rem;
     }
